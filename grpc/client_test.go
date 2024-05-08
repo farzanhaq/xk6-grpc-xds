@@ -32,9 +32,9 @@ import (
 	v1alphagrpc "google.golang.org/grpc/reflection/grpc_reflection_v1alpha"
 	grpcstats "google.golang.org/grpc/stats"
 
-	xk6grpc "github.com/grafana/xk6-grpc/grpc"
-	"github.com/grafana/xk6-grpc/grpc/testdata/wrappers_testing"
-	"github.com/grafana/xk6-grpc/lib/netext/grpcext"
+	xk6grpc "github.com/farzanhaq/xk6-grpc-xds/grpc"
+	"github.com/farzanhaq/xk6-grpc-xds/grpc/testdata/wrappers_testing"
+	"github.com/farzanhaq/xk6-grpc-xds/lib/netext/grpcext"
 )
 
 func TestClient(t *testing.T) {

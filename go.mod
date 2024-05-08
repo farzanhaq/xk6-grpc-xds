@@ -1,4 +1,4 @@
-module github.com/grafana/xk6-grpc
+module github.com/farzanhaq/xk6-grpc-xds
 
 go 1.19
 

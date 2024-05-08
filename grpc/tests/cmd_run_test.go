@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	_ "github.com/grafana/xk6-grpc"
-	"github.com/grafana/xk6-grpc/grpc/testutils"
+	_ "github.com/farzanhaq/xk6-grpc-xds/grpc"
+	"github.com/farzanhaq/xk6-grpc-xds/grpc/testutils"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"go.k6.io/k6/cmd"

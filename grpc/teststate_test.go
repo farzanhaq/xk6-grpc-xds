@@ -19,7 +19,7 @@ import (
 	"go.k6.io/k6/metrics"
 	"gopkg.in/guregu/null.v3"
 
-	xk6grpc "github.com/grafana/xk6-grpc/grpc"
+	xk6grpc "github.com/farzanhaq/xk6-grpc-xds/grpc"
 )
 
 const isWindows = runtime.GOOS == "windows"

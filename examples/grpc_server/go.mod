@@ -1,11 +1,11 @@
-module github.com/grafana/xk6-grpc-example
+module github.com/farzanhaq/xk6-grpc-xds-example
 
 go 1.19
 
-replace github.com/grafana/xk6-grpc => ../../
+replace github.com/farzanhaq/xk6-grpc-xds => ../../
 
 require (
-	github.com/grafana/xk6-grpc v0.0.0-00010101000000-000000000000
+	github.com/farzanhaq/xk6-grpc-xds v0.0.0-00010101000000-000000000000
 	google.golang.org/grpc v1.58.3
 )
 

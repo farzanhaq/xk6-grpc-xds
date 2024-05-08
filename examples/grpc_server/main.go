@@ -32,7 +32,7 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/grafana/xk6-grpc/grpc/testutils/grpcservice"
+	"github.com/farzanhaq/xk6-grpc-xds/grpc/testutils/grpcservice"
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/testdata"
 

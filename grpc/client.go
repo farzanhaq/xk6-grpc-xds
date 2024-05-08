@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/grafana/xk6-grpc/lib/netext/grpcext"
+	"github.com/farzanhaq/xk6-grpc-xds/lib/netext/grpcext"
 	"go.k6.io/k6/js/common"
 	"go.k6.io/k6/js/modules"
 
@@ -28,6 +28,7 @@ import (
 	"google.golang.org/protobuf/reflect/protoregistry"
 	"google.golang.org/protobuf/types/descriptorpb"
 	"google.golang.org/protobuf/types/dynamicpb"
+	_ "google.golang.org/grpc/xds"
 )
 
 // Client represents a gRPC client that can be used to make RPC requests

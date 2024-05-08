@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/dop251/goja"
-	"github.com/grafana/xk6-grpc/lib/netext/grpcext"
+	"github.com/farzanhaq/xk6-grpc-xds/lib/netext/grpcext"
 	"github.com/mstoykov/k6-taskqueue-lib/taskqueue"
 	"github.com/sirupsen/logrus"
 	"go.k6.io/k6/js/common"

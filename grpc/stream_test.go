@@ -15,8 +15,8 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"
 
-	"github.com/grafana/xk6-grpc/grpc/testdata/wrappers_testing"
-	"github.com/grafana/xk6-grpc/grpc/testutils/grpcservice"
+	"github.com/farzanhaq/xk6-grpc-xds/grpc/testdata/wrappers_testing"
+	"github.com/farzanhaq/xk6-grpc-xds/grpc/testutils/grpcservice"
 )
 
 func TestStream_InvalidHeader(t *testing.T) {

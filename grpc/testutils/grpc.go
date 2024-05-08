@@ -8,7 +8,7 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/grafana/xk6-grpc/grpc/testutils/grpcservice"
+	"github.com/farzanhaq/xk6-grpc-xds/grpc/testutils/grpcservice"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"

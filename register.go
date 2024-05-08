@@ -2,7 +2,7 @@
 package grpc
 
 import (
-	"github.com/grafana/xk6-grpc/grpc"
+	"github.com/farzanhaq/xk6-grpc-xds/grpc"
 	"go.k6.io/k6/js/modules"
 )
 
