@@ -28,6 +28,7 @@ import (
 	"google.golang.org/protobuf/reflect/protoregistry"
 	"google.golang.org/protobuf/types/descriptorpb"
 	"google.golang.org/protobuf/types/dynamicpb"
+	_ "google.golang.org/grpc/xds"
 )
 
 // Client represents a gRPC client that can be used to make RPC requests

@@ -25,6 +25,7 @@ import (
 	"google.golang.org/protobuf/reflect/protoreflect"
 	"google.golang.org/protobuf/types/descriptorpb"
 	"google.golang.org/protobuf/types/dynamicpb"
+	_ "google.golang.org/grpc/xds"
 )
 
 // Request represents a gRPC request.
